@@ -167,11 +167,19 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>python作为一门解释性语言，拥有丰富的数据结构，很多同学在学习一种新的简单语言时候，往往忽略了对于其数据结构特性的学习，从而导致一直在入门门槛之前徘徊，白白白浪费了时间和精力。这里，我对python常用的数据结构及其方法进行摘录整理。</p>
+        <p>python作为一门解释性语言，拥有丰富的数据结构，很多同学在学习一种新的简单语言时候，往往忽略了对于其数据结构特性的学习，从而导致一直在入门门槛之前徘徊，白白浪费了时间和精力。这里，我对python常用的数据结构及其方法进行摘录整理。</p>
 <h2 id="List"><a href="#List" class="headerlink" title="List"></a>List</h2><ul>
-<li>List.append() : Add an item to the end of the list. Equivalent to a[len(a):] = [x].</li>
-<li>List.extend() : Extend the list by appending all the items from the iterable. Equivalent to a[len(a):] = iterable.</li>
-<li>list.insert() : Insert an item at a given position. The first argument is the index of the element before which to insert, so a.insert(0, x) inserts at the front of the list, and a.insert(len(a), x) is equivalent to a.append(x).</li>
+<li>List.append(x) : Add an item to the end of the list. Equivalent to a[len(a):] = [x].</li>
+<li>List.extend(iterable) : Extend the list by appending all the items from the iterable. Equivalent to a[len(a):] = iterable.</li>
+<li>list.insert(i, x) : Insert an item at a given position. The first argument is the index of the element before which to insert, so a.insert(0, x) inserts at the front of the list, and a.insert(len(a), x) is equivalent to a.append(x).</li>
+<li>list.remove(x) : Remove the first item from the list whose value is x. It is an error if there is no such item.</li>
+<li>list.pop([i]) : Remove the item at the given position in the list, and return it. If no index is specified, a.pop() removes and returns the last item in the list. (The square brackets around the i in the method signature denote that the parameter is optional, not that you should type square brackets at that position. You will see this notation frequently in the Python Library Reference.)</li>
+<li>list.clear() : Remove all items from the list. Equivalent to del a[:].</li>
+<li>list.index(x[, start[, end]]) : Return zero-based index in the list of the first item whose value is x. Raises a ValueError if there is no such item.<br>The optional arguments start and end are interpreted as in the slice notation and are used to limit the search to a particular subsequence of the list. The returned index is computed relative to the beginning of the full sequence rather than the start argument.</li>
+<li>list.count(x) : Return the number of times x appears in the list.</li>
+<li>list.sort(key = None, reverse = False) : Sort the items of the list in place (the arguments can be used for sort customization, see sorted() for their explanation).</li>
+<li>list.reverse() : Reverse the elements of the list in place.</li>
+<li>list.copy() : Return a shallow copy of the list. Equivalent to a[:].</li>
 </ul>
 
       
