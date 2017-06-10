@@ -6,24 +6,15 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>小白学python之数据结构 | Dikea的博客</title>
+  <title>读书 Neural Networks and Deep Learning | Dikea的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="python作为一门解释性语言，拥有丰富的数据结构，很多同学在学习一种新的简单语言时候，往往忽略了对于其数据结构特性的学习，从而导致一直在入门门槛之前徘徊，白白浪费了时间和精力。这里，我对python常用的数据结构及其方法进行摘录整理。
-List
-List.append(x) : Add an item to the end of the list. Equivalent to a[len(a):">
-<meta property="og:type" content="article">
-<meta property="og:title" content="小白学python之数据结构">
-<meta property="og:url" content="http://yoursite.com/2017/05/10/小白学python之数据结构/index.html">
+  <meta property="og:type" content="article">
+<meta property="og:title" content="读书 Neural Networks and Deep Learning">
+<meta property="og:url" content="http://yoursite.com/2017/05/15/读书-Neural-Networks-and-Deep-Learning/index.html">
 <meta property="og:site_name" content="Dikea的博客">
-<meta property="og:description" content="python作为一门解释性语言，拥有丰富的数据结构，很多同学在学习一种新的简单语言时候，往往忽略了对于其数据结构特性的学习，从而导致一直在入门门槛之前徘徊，白白浪费了时间和精力。这里，我对python常用的数据结构及其方法进行摘录整理。
-List
-List.append(x) : Add an item to the end of the list. Equivalent to a[len(a):">
-<meta property="og:updated_time" content="2017-05-10T12:50:22.000Z">
+<meta property="og:updated_time" content="2017-05-15T15:52:25.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="小白学python之数据结构">
-<meta name="twitter:description" content="python作为一门解释性语言，拥有丰富的数据结构，很多同学在学习一种新的简单语言时候，往往忽略了对于其数据结构特性的学习，从而导致一直在入门门槛之前徘徊，白白浪费了时间和精力。这里，我对python常用的数据结构及其方法进行摘录整理。
-List
-List.append(x) : Add an item to the end of the list. Equivalent to a[len(a):">
+<meta name="twitter:title" content="读书 Neural Networks and Deep Learning">
   
     <link rel="alternative" href="/atom.xml" title="Dikea的博客" type="application/atom+xml">
   
@@ -155,41 +146,27 @@ List.append(x) : Add an item to the end of the list. Equivalent to a[len(a):">
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-小白学python之数据结构" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-读书-Neural-Networks-and-Deep-Learning" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      小白学python之数据结构
+      读书 Neural Networks and Deep Learning
     </h1>
   
 
         
-        <a href="/2017/05/10/小白学python之数据结构/" class="archive-article-date">
-  	<time datetime="2017-05-10T11:28:38.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-05-10</time>
+        <a href="/2017/05/15/读书-Neural-Networks-and-Deep-Learning/" class="archive-article-date">
+  	<time datetime="2017-05-15T15:52:25.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-05-15</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>python作为一门解释性语言，拥有丰富的数据结构，很多同学在学习一种新的简单语言时候，往往忽略了对于其数据结构特性的学习，从而导致一直在入门门槛之前徘徊，白白浪费了时间和精力。这里，我对python常用的数据结构及其方法进行摘录整理。</p>
-<h2 id="List"><a href="#List" class="headerlink" title="List"></a>List</h2><ul>
-<li>List.append(x) : Add an item to the end of the list. Equivalent to a[len(a):] = [x].</li>
-<li>List.extend(iterable) : Extend the list by appending all the items from the iterable. Equivalent to a[len(a):] = iterable.</li>
-<li>list.insert(i, x) : Insert an item at a given position. The first argument is the index of the element before which to insert, so a.insert(0, x) inserts at the front of the list, and a.insert(len(a), x) is equivalent to a.append(x).</li>
-<li>list.remove(x) : Remove the first item from the list whose value is x. It is an error if there is no such item.</li>
-<li>list.pop([i]) : Remove the item at the given position in the list, and return it. If no index is specified, a.pop() removes and returns the last item in the list. (The square brackets around the i in the method signature denote that the parameter is optional, not that you should type square brackets at that position. You will see this notation frequently in the Python Library Reference.)</li>
-<li>list.clear() : Remove all items from the list. Equivalent to del a[:].</li>
-<li>list.index(x[, start[, end]]) : Return zero-based index in the list of the first item whose value is x. Raises a ValueError if there is no such item.<br>The optional arguments start and end are interpreted as in the slice notation and are used to limit the search to a particular subsequence of the list. The returned index is computed relative to the beginning of the full sequence rather than the start argument.</li>
-<li>list.count(x) : Return the number of times x appears in the list.</li>
-<li>list.sort(key = None, reverse = False) : Sort the items of the list in place (the arguments can be used for sort customization, see sorted() for their explanation).</li>
-<li>list.reverse() : Reverse the elements of the list in place.</li>
-<li>list.copy() : Return a shallow copy of the list. Equivalent to a[:].</li>
-</ul>
-
+        
       
 
       
@@ -223,17 +200,6 @@ List.append(x) : Add an item to the end of the list. Equivalent to a[len(a):">
     <div class="article-info article-info-index">
       
       
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags"></i>
-		<ul class="article-tag-list">
-			 
-        <li class="article-tag-list-item">
-        	<a href="javascript:void(0)" class="article-tag-list-link color2">python</a>
-        </li>
-      
-		</ul>
-	</div>
-
       
 
       
@@ -284,7 +250,7 @@ List.append(x) : Add an item to the end of the list. Equivalent to a[len(a):">
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="http://s.jiathis.com/qrcode.php?url=http://yoursite.com/2017/05/10/小白学python之数据结构/" alt="微信分享二维码">
+      <img src="http://s.jiathis.com/qrcode.php?url=http://yoursite.com/2017/05/15/读书-Neural-Networks-and-Deep-Learning/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -299,8 +265,8 @@ List.append(x) : Add an item to the end of the list. Equivalent to a[len(a):">
 <nav id="article-nav">
   
   
-    <a href="/2017/01/02/谈谈我自己/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">谈谈我自己</div>
+    <a href="/2017/05/13/读书笔记《Machine-Learning-in-Action》/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">读书笔记《Machine Learning in Action》</div>
       <i class="icon-circle-right"></i>
     </a>
   
@@ -417,10 +383,6 @@ List.append(x) : Add an item to the end of the list. Equivalent to a[len(a):">
             <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
           </label>
           <ul class="article-tag-list" q-show="showTags">
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="color2">python</a>
-              </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="color3">我思</a>
