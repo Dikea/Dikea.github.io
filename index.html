@@ -147,6 +147,76 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-Machine-Learning-in-Action-Reading-Notes" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/06/10/Machine-Learning-in-Action-Reading-Notes/">Machine Learning in Action | 读书笔记</a>
+    </h1>
+  
+
+        
+        <a href="/2017/06/10/Machine-Learning-in-Action-Reading-Notes/" class="archive-article-date">
+  	<time datetime="2017-06-10T08:11:39.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-06-10</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p><strong>前言</strong>：最近在阅读《机器学习实战》这本书。为了追求速度，看的是中文的译本。这本书对于基础的机器学习算法讲解的很细致，易于理解。为了方便记忆，特提炼看到的心得，作笔记如下。此笔记只为笔者所作，读者若是觉得逻辑混乱，大可不看。</p>
+<h2 id="第一章-机器学习基础"><a href="#第一章-机器学习基础" class="headerlink" title="第一章 机器学习基础"></a>第一章 机器学习基础</h2><h3 id="本章概要"><a href="#本章概要" class="headerlink" title="本章概要"></a>本章概要</h3><p>讲解了机器学习的概念和关键术语。说明了使用python作为机器学习入门语言的优势。介绍了一些python中常见的机器学习函数库。</p>
+<h2 id="第二章-K近邻算法"><a href="#第二章-K近邻算法" class="headerlink" title="第二章 K近邻算法"></a>第二章 K近邻算法</h2><h3 id="本章概要-1"><a href="#本章概要-1" class="headerlink" title="本章概要"></a>本章概要</h3><p>讲解了K近邻算法的原理，将其应用到改进约会网站的配对效果以及手写数字的分类识别中。</p>
+<h3 id="算法理解"><a href="#算法理解" class="headerlink" title="算法理解"></a>算法理解</h3><p>K近邻算法：存在一个训练数据集合，其中每个数据都有着标签。输入没有标签的测试数据之后，将测试数据的每个特征与训练数据对应的特征进行比较，然后提取训练数据集中最近邻的的前k个分类数据（一般k不大于20）。最后，选择这k个相似数据中出现次数最多的分类，作为新数据的分类。</p>
+<h2 id="第三章-决策树"><a href="#第三章-决策树" class="headerlink" title="第三章 决策树"></a>第三章 决策树</h2><h3 id="本章概要-2"><a href="#本章概要-2" class="headerlink" title="本章概要"></a>本章概要</h3><p>介绍了决策树的主要思想，实现了决策树的代码，并且可视化出了决策树。这里主要介绍的是使用ID3算法生成的决策树，并且使用决策树预测隐形眼镜类型。</p>
+<h3 id="算法理解-1"><a href="#算法理解-1" class="headerlink" title="算法理解"></a>算法理解</h3><p>决策树通过在每个节点的推断分解，逐步缩小数据的所属范围，从而最终得到数据较为准确的分类。在每个节点对数据进行分类的时候，都需要寻找数据最好的分类特征。那么，什么特征称得上最好呢？如果这个特征包含的<strong>信息</strong>越多，根据这个特征的分类肯定是比较合理的。因为包含的信息越多，就越能将大部分数据分成不同的类别。相反，如果包含的信息很少，只能作用于很少的数据，使得分类的效果不好。这里信息的度量方式，使用著名的<strong>信息熵</strong>（香农大神提出的）来表示。</p>
+<blockquote>
+<p>注意：决策树的训练需要耗费大量时间，但使用构建好的决策树去分类问题却很快。为了节省计算时间，可以使用python模块pickle序列化对象，序列化对象可以保存到磁盘，也就是模型可以保存到磁盘，每次需要使用的时候再读取出来。</p>
+</blockquote>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags"></i>
+		<ul class="article-tag-list">
+			 
+        <li class="article-tag-list-item">
+        	<a href="javascript:void(0)" class="article-tag-list-link color2">Machine Learning</a>
+        </li>
+      
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2017/06/10/Machine-Learning-in-Action-Reading-Notes/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+
+
+
+
+
+
+
+  
     <article id="post-谈谈我自己" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -326,6 +396,10 @@
             <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
           </label>
           <ul class="article-tag-list" q-show="showTags">
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="color2">Machine Learning</a>
+              </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="color3">我思</a>
