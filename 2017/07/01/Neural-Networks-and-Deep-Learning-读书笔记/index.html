@@ -18,7 +18,7 @@ What this book is about: 叙">
 <meta property="og:description" content="前言：自己对自然语言处理方向比较感兴趣，眼下NLP与深度学习神经网络结合的比较紧密。于是也开始进行神经网络相关知识的学习，近来闲暇的时候，会去阅读一本书：Neural Networks and Deep Learning。这本书是写给深度学习小白的入门书，读者只要对微积分有些许的了解，外加一些简单的逻辑推理，就可以不费力的阅读。
 Preface
 What this book is about: 叙">
-<meta property="og:updated_time" content="2017-09-16T09:41:22.000Z">
+<meta property="og:updated_time" content="2017-09-17T11:23:04.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Neural Networks and Deep Learning | 读书笔记">
 <meta name="twitter:description" content="前言：自己对自然语言处理方向比较感兴趣，眼下NLP与深度学习神经网络结合的比较紧密。于是也开始进行神经网络相关知识的学习，近来闲暇的时候，会去阅读一本书：Neural Networks and Deep Learning。这本书是写给深度学习小白的入门书，读者只要对微积分有些许的了解，外加一些简单的逻辑推理，就可以不费力的阅读。
@@ -181,6 +181,9 @@ What this book is about: 叙">
 <h3 id="过拟合"><a href="#过拟合" class="headerlink" title="过拟合"></a>过拟合</h3><p>阐述了什么是过拟合，如果判断是否出现过拟合现象。<br>神经网络训练过程不可避免会陷入过拟合，<br>这种缺陷是无法避免的，只能加以缓解。<br>那么，有哪些办法可以加以改善呢？<br>这就引出了本章的后续部分：<strong>正则化和Dropout</strong>。</p>
 <h3 id="正则化"><a href="#正则化" class="headerlink" title="正则化"></a>正则化</h3><p>在费用函数上加一个正则化项（regularization），<br>例如L1范数或者L2范数。<br><strong>正则化目的</strong>：改善过拟合, 提高准确率。<br><strong>如何起作用</strong>：正则化能够通过梯度下降使权重矩阵逐渐变小，<br>如果权重矩阵比较大，根据BP公式可以看出，<br>当输入有了小的变化之后，权重矩阵会收到影响产生变化。<br>而权重矩阵比较小时，这种影响是较小的。<br>因此，正则化的神经网络在通常情况下，<br>能够很好的学习大部分训练数据呈现出来的简单通用的模式，<br>并且很少受少数特殊数据特征的影响。</p>
 <h3 id="Dropout"><a href="#Dropout" class="headerlink" title="Dropout"></a>Dropout</h3><p>在神经网络训练过程中，对于每一层，随机选择部分神经元进行训练，<br>剩余神经元暂时隐藏，这种操作即为dropout。<br><strong>如何起作用</strong>：随机选择神经元的操作，使得每次训练时网络的结构都有所不同，<br>这样更加贴近实际应用的随机性，使得训练出来的模型更加能够适应实际应用环境，<br>从而使得模型效果得到提升。</p>
+<h2 id="扩展数据集"><a href="#扩展数据集" class="headerlink" title="扩展数据集"></a>扩展数据集</h2><p>这里指通过一些人为的策略，去扩展训练数据集。<br>文中首先阐述了深度学习的一个规律：<br>通常情况下，训练数据集越大，训练出的模型越好。<br>例如，对于MINST数据集，可以将数字图片旋转较小的一个角度，<br>得到一些新的数字图片，从而扩展了训练数据集，增加了多样性，<br>使得训练出的数字识别神经网络更加有效。<br>当然，对于数据的人为拓展，不能是毫无缘由的，<br>遵循的原则是：扩展的数据，应该能够反应真实世界中数据的变化规律。</p>
+<h2 id="权重初始化"><a href="#权重初始化" class="headerlink" title="权重初始化"></a>权重初始化</h2><p>好的初始化权重能够使得神经网络从训练开始就避免隐藏层神经元学习缓慢，<br>从而提高模型学习速度。对于有些情况，好的权重初始化策略，也能够提升模型的效果。</p>
+<h2 id="超参数的选择"><a href="#超参数的选择" class="headerlink" title="超参数的选择"></a>超参数的选择</h2><p>一个神经网络，通常有诸多超参数需要设置，而在这之前，我们对于好的超参数组合一无所知。<br>所以，在选择超参数的时候，需要遵循一些小的技巧。</p>
 <h2 id="A-visual-proof-that-neural-nets-can-compute-any-function"><a href="#A-visual-proof-that-neural-nets-can-compute-any-function" class="headerlink" title="A visual proof that neural nets can compute any function"></a>A visual proof that neural nets can compute any function</h2><h2 id="Why-are-deep-neural-networks-hard-to-train"><a href="#Why-are-deep-neural-networks-hard-to-train" class="headerlink" title="Why are deep neural networks hard to train?"></a>Why are deep neural networks hard to train?</h2><h2 id="Deep-learning"><a href="#Deep-learning" class="headerlink" title="Deep learning"></a>Deep learning</h2>
       
 
@@ -391,11 +394,11 @@ MathJax.Hub.Queue(function() {
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">python</a>
+                <a href="javascript:void(0)" class="js-tag color3">我思</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">我思</a>
+                <a href="javascript:void(0)" class="js-tag color2">python</a>
               </li>
             
             <div class="clearfix"></div>

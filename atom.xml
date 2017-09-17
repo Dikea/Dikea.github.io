@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-09-15T02:51:04.000Z</updated>
+  <updated>2017-09-17T06:50:56.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>《人性的弱点》 读书与思考</title>
+    <link href="http://yoursite.com/2017/09/17/%E4%BA%BA%E6%80%A7%E7%9A%84%E5%BC%B1%E7%82%B9/"/>
+    <id>http://yoursite.com/2017/09/17/人性的弱点/</id>
+    <published>2017-09-17T03:44:52.000Z</published>
+    <updated>2017-09-17T06:50:56.000Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>以前，是拒绝看《人性的弱点》这本书的。因为随意翻阅几页之后，草率的认为这又是基本鸡汤书。<br>直到有一天，闲来无聊，在公司的图书架上，翻了翻这本书，才发现，这是本宝贝。</p></blockquote><p>从这本书中，我看到了一些无价的原则，倘若能够习得一二，便能让我在为人处世中脱颖而出。记录在这博客上，以便长期翻阅、警醒。</p><p>## </p><h2 id="让对方成为对话的主导者。"><a href="#让对方成为对话的主导者。" class="headerlink" title="让对方成为对话的主导者。"></a>让对方成为对话的主导者。</h2>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;blockquote&gt;
+&lt;p&gt;以前，是拒绝看《人性的弱点》这本书的。因为随意翻阅几页之后，草率的认为这又是基本鸡汤书。&lt;br&gt;直到有一天，闲来无聊，在公司的图书架上，翻了翻这本书，才发现，这是本宝贝。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;从这本书中，我看到了一些无价的原则
+      
+    
+    </summary>
+    
+    
+      <category term="我思" scheme="http://yoursite.com/tags/%E6%88%91%E6%80%9D/"/>
+    
+  </entry>
   
   <entry>
     <title>学习日记</title>
@@ -87,9 +113,9 @@
     <link href="http://yoursite.com/2017/07/01/Neural-Networks-and-Deep-Learning-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     <id>http://yoursite.com/2017/07/01/Neural-Networks-and-Deep-Learning-读书笔记/</id>
     <published>2017-07-01T08:27:52.000Z</published>
-    <updated>2017-09-16T09:41:22.000Z</updated>
+    <updated>2017-09-17T11:23:04.000Z</updated>
     
-    <content type="html"><![CDATA[<p><strong>前言</strong>：自己对自然语言处理方向比较感兴趣，眼下NLP与深度学习神经网络结合的比较紧密。于是也开始进行神经网络相关知识的学习，近来闲暇的时候，会去阅读一本书：<a href="http://neuralnetworksanddeeplearning.com" target="_blank" rel="external">Neural Networks and Deep Learning</a>。这本书是写给深度学习小白的入门书，读者只要对微积分有些许的了解，外加一些简单的逻辑推理，就可以不费力的阅读。</p><h2 id="Preface"><a href="#Preface" class="headerlink" title="Preface"></a>Preface</h2><ul><li>What this book is about: 叙述了这本书的写作目的。</li><li>On the exercises and problems: 说明了书中的exercise和problem板块的作用。</li></ul><h2 id="Using-neural-nets-to-recognize-handwritten-digits"><a href="#Using-neural-nets-to-recognize-handwritten-digits" class="headerlink" title="Using neural nets to recognize handwritten digits"></a>Using neural nets to recognize handwritten digits</h2><p>介绍了最为简单的神经网络框架，<br>并使用简洁的代码搭建了一个简单的神经网络。</p><h2 id="How-the-backpropagation-algorithm-works"><a href="#How-the-backpropagation-algorithm-works" class="headerlink" title="How the backpropagation algorithm works"></a>How the backpropagation algorithm works</h2><p>阅读完这一章，记在脑海中的，是BP1~4公式。<br>作者通过多种方式，去解释公式的缘由以及合理性。</p><h2 id="Improving-the-way-neural-networks-learn"><a href="#Improving-the-way-neural-networks-learn" class="headerlink" title="Improving the way neural networks learn"></a>Improving the way neural networks learn</h2><p>之前介绍的是最简单的神经网络，<br>存在很多对其进行优化的地方,所以，<br>这一章将会介绍几种常见的技巧，<br>去提高神经网络学习的质量。</p><h3 id="交叉熵费用函数"><a href="#交叉熵费用函数" class="headerlink" title="交叉熵费用函数"></a>交叉熵费用函数</h3><p><strong>函数作用</strong>：使得神经网络学习速度不会很慢/平缓。<br>文中从原理阐述了该函数存在的合理性。</p><h3 id="过拟合"><a href="#过拟合" class="headerlink" title="过拟合"></a>过拟合</h3><p>阐述了什么是过拟合，如果判断是否出现过拟合现象。<br>神经网络训练过程不可避免会陷入过拟合，<br>这种缺陷是无法避免的，只能加以缓解。<br>那么，有哪些办法可以加以改善呢？<br>这就引出了本章的后续部分：<strong>正则化和Dropout</strong>。</p><h3 id="正则化"><a href="#正则化" class="headerlink" title="正则化"></a>正则化</h3><p>在费用函数上加一个正则化项（regularization），<br>例如L1范数或者L2范数。<br><strong>正则化目的</strong>：改善过拟合, 提高准确率。<br><strong>如何起作用</strong>：正则化能够通过梯度下降使权重矩阵逐渐变小，<br>如果权重矩阵比较大，根据BP公式可以看出，<br>当输入有了小的变化之后，权重矩阵会收到影响产生变化。<br>而权重矩阵比较小时，这种影响是较小的。<br>因此，正则化的神经网络在通常情况下，<br>能够很好的学习大部分训练数据呈现出来的简单通用的模式，<br>并且很少受少数特殊数据特征的影响。</p><h3 id="Dropout"><a href="#Dropout" class="headerlink" title="Dropout"></a>Dropout</h3><p>在神经网络训练过程中，对于每一层，随机选择部分神经元进行训练，<br>剩余神经元暂时隐藏，这种操作即为dropout。<br><strong>如何起作用</strong>：随机选择神经元的操作，使得每次训练时网络的结构都有所不同，<br>这样更加贴近实际应用的随机性，使得训练出来的模型更加能够适应实际应用环境，<br>从而使得模型效果得到提升。</p><h2 id="A-visual-proof-that-neural-nets-can-compute-any-function"><a href="#A-visual-proof-that-neural-nets-can-compute-any-function" class="headerlink" title="A visual proof that neural nets can compute any function"></a>A visual proof that neural nets can compute any function</h2><h2 id="Why-are-deep-neural-networks-hard-to-train"><a href="#Why-are-deep-neural-networks-hard-to-train" class="headerlink" title="Why are deep neural networks hard to train?"></a>Why are deep neural networks hard to train?</h2><h2 id="Deep-learning"><a href="#Deep-learning" class="headerlink" title="Deep learning"></a>Deep learning</h2>]]></content>
+    <content type="html"><![CDATA[<p><strong>前言</strong>：自己对自然语言处理方向比较感兴趣，眼下NLP与深度学习神经网络结合的比较紧密。于是也开始进行神经网络相关知识的学习，近来闲暇的时候，会去阅读一本书：<a href="http://neuralnetworksanddeeplearning.com" target="_blank" rel="external">Neural Networks and Deep Learning</a>。这本书是写给深度学习小白的入门书，读者只要对微积分有些许的了解，外加一些简单的逻辑推理，就可以不费力的阅读。</p><h2 id="Preface"><a href="#Preface" class="headerlink" title="Preface"></a>Preface</h2><ul><li>What this book is about: 叙述了这本书的写作目的。</li><li>On the exercises and problems: 说明了书中的exercise和problem板块的作用。</li></ul><h2 id="Using-neural-nets-to-recognize-handwritten-digits"><a href="#Using-neural-nets-to-recognize-handwritten-digits" class="headerlink" title="Using neural nets to recognize handwritten digits"></a>Using neural nets to recognize handwritten digits</h2><p>介绍了最为简单的神经网络框架，<br>并使用简洁的代码搭建了一个简单的神经网络。</p><h2 id="How-the-backpropagation-algorithm-works"><a href="#How-the-backpropagation-algorithm-works" class="headerlink" title="How the backpropagation algorithm works"></a>How the backpropagation algorithm works</h2><p>阅读完这一章，记在脑海中的，是BP1~4公式。<br>作者通过多种方式，去解释公式的缘由以及合理性。</p><h2 id="Improving-the-way-neural-networks-learn"><a href="#Improving-the-way-neural-networks-learn" class="headerlink" title="Improving the way neural networks learn"></a>Improving the way neural networks learn</h2><p>之前介绍的是最简单的神经网络，<br>存在很多对其进行优化的地方,所以，<br>这一章将会介绍几种常见的技巧，<br>去提高神经网络学习的质量。</p><h3 id="交叉熵费用函数"><a href="#交叉熵费用函数" class="headerlink" title="交叉熵费用函数"></a>交叉熵费用函数</h3><p><strong>函数作用</strong>：使得神经网络学习速度不会很慢/平缓。<br>文中从原理阐述了该函数存在的合理性。</p><h3 id="过拟合"><a href="#过拟合" class="headerlink" title="过拟合"></a>过拟合</h3><p>阐述了什么是过拟合，如果判断是否出现过拟合现象。<br>神经网络训练过程不可避免会陷入过拟合，<br>这种缺陷是无法避免的，只能加以缓解。<br>那么，有哪些办法可以加以改善呢？<br>这就引出了本章的后续部分：<strong>正则化和Dropout</strong>。</p><h3 id="正则化"><a href="#正则化" class="headerlink" title="正则化"></a>正则化</h3><p>在费用函数上加一个正则化项（regularization），<br>例如L1范数或者L2范数。<br><strong>正则化目的</strong>：改善过拟合, 提高准确率。<br><strong>如何起作用</strong>：正则化能够通过梯度下降使权重矩阵逐渐变小，<br>如果权重矩阵比较大，根据BP公式可以看出，<br>当输入有了小的变化之后，权重矩阵会收到影响产生变化。<br>而权重矩阵比较小时，这种影响是较小的。<br>因此，正则化的神经网络在通常情况下，<br>能够很好的学习大部分训练数据呈现出来的简单通用的模式，<br>并且很少受少数特殊数据特征的影响。</p><h3 id="Dropout"><a href="#Dropout" class="headerlink" title="Dropout"></a>Dropout</h3><p>在神经网络训练过程中，对于每一层，随机选择部分神经元进行训练，<br>剩余神经元暂时隐藏，这种操作即为dropout。<br><strong>如何起作用</strong>：随机选择神经元的操作，使得每次训练时网络的结构都有所不同，<br>这样更加贴近实际应用的随机性，使得训练出来的模型更加能够适应实际应用环境，<br>从而使得模型效果得到提升。</p><h2 id="扩展数据集"><a href="#扩展数据集" class="headerlink" title="扩展数据集"></a>扩展数据集</h2><p>这里指通过一些人为的策略，去扩展训练数据集。<br>文中首先阐述了深度学习的一个规律：<br>通常情况下，训练数据集越大，训练出的模型越好。<br>例如，对于MINST数据集，可以将数字图片旋转较小的一个角度，<br>得到一些新的数字图片，从而扩展了训练数据集，增加了多样性，<br>使得训练出的数字识别神经网络更加有效。<br>当然，对于数据的人为拓展，不能是毫无缘由的，<br>遵循的原则是：扩展的数据，应该能够反应真实世界中数据的变化规律。</p><h2 id="权重初始化"><a href="#权重初始化" class="headerlink" title="权重初始化"></a>权重初始化</h2><p>好的初始化权重能够使得神经网络从训练开始就避免隐藏层神经元学习缓慢，<br>从而提高模型学习速度。对于有些情况，好的权重初始化策略，也能够提升模型的效果。</p><h2 id="超参数的选择"><a href="#超参数的选择" class="headerlink" title="超参数的选择"></a>超参数的选择</h2><p>一个神经网络，通常有诸多超参数需要设置，而在这之前，我们对于好的超参数组合一无所知。<br>所以，在选择超参数的时候，需要遵循一些小的技巧。</p><h2 id="A-visual-proof-that-neural-nets-can-compute-any-function"><a href="#A-visual-proof-that-neural-nets-can-compute-any-function" class="headerlink" title="A visual proof that neural nets can compute any function"></a>A visual proof that neural nets can compute any function</h2><h2 id="Why-are-deep-neural-networks-hard-to-train"><a href="#Why-are-deep-neural-networks-hard-to-train" class="headerlink" title="Why are deep neural networks hard to train?"></a>Why are deep neural networks hard to train?</h2><h2 id="Deep-learning"><a href="#Deep-learning" class="headerlink" title="Deep learning"></a>Deep learning</h2>]]></content>
     
     <summary type="html">
     
