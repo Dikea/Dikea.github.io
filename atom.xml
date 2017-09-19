@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>感谢清晨的每一缕阳光</title>
+  <title>感谢每一缕阳光</title>
   
   
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-09-17T12:00:32.000Z</updated>
+  <updated>2017-09-19T02:14:54.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,48 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Neural Network Methods for Natural Language Processing | 读书笔记</title>
+    <link href="http://yoursite.com/2017/09/19/Neural-Network-Methods-for-Natural-Language-Processing-Reading-Notes/"/>
+    <id>http://yoursite.com/2017/09/19/Neural-Network-Methods-for-Natural-Language-Processing-Reading-Notes/</id>
+    <published>2017-09-19T02:12:28.000Z</published>
+    <updated>2017-09-19T02:14:54.000Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+      <category term="Deep Learning" scheme="http://yoursite.com/tags/Deep-Learning/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Sentence Representations | 句向量工作</title>
+    <link href="http://yoursite.com/2017/09/18/Sentence-Representations/"/>
+    <id>http://yoursite.com/2017/09/18/Sentence-Representations/</id>
+    <published>2017-09-18T05:47:24.000Z</published>
+    <updated>2017-09-18T09:23:40.000Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>近期，开始进行句向量相关的工作，学习过程记录于此，以便日后查阅。</p></blockquote><h2 id="References"><a href="#References" class="headerlink" title="References"></a>References</h2><h3 id="Supervised-Learning-of-Universal-Sentence-Representations-from-Natural-Language-Inference-Data"><a href="#Supervised-Learning-of-Universal-Sentence-Representations-from-Natural-Language-Inference-Data" class="headerlink" title="Supervised Learning of Universal Sentence Representations from Natural Language Inference Data"></a>Supervised Learning of Universal Sentence Representations from Natural Language Inference Data</h3><h4 id="论文主题"><a href="#论文主题" class="headerlink" title="论文主题"></a>论文主题</h4><p>在斯坦福自然语言推断数据集(SNLI)上，使用监督学习的方法训练句向量模型，获得了不错的效果。<br>类似于机器视觉中，在ImageNet上获取的特征可以用到其他图像处理任务中，<br>我们的句向量模型训练好之后，也可以应用到其他的NLP任务中。</p><h4 id="相关资源"><a href="#相关资源" class="headerlink" title="相关资源"></a>相关资源</h4><ul><li><a href="https://arxiv.org/pdf/1705.02364.pdf" target="_blank" rel="external">paper source</a></li><li><a href="https://github.com/facebookresearch/InferSent" target="_blank" rel="external">github source</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;blockquote&gt;
+&lt;p&gt;近期，开始进行句向量相关的工作，学习过程记录于此，以便日后查阅。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;References&quot;&gt;&lt;a href=&quot;#References&quot; class=&quot;headerlink&quot; title=&quot;Refer
+      
+    
+    </summary>
+    
+    
+      <category term="Deep Learning" scheme="http://yoursite.com/tags/Deep-Learning/"/>
+    
+  </entry>
   
   <entry>
     <title>《人性的弱点》 读书与思考</title>
