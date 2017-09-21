@@ -10,20 +10,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="近期，开始进行句向量相关的工作，学习过程记录于此，以便日后查阅。
 
-Models and ToolsWord2Vec当我们在说word2vec算法或模型的时候，其实指的是其背后用于计算word vector的CBoW模型和Skip-gram模型。很多人以为word2vec指的是一个算法或模型，这也是一种谬误。理解：word2vec的精髓是，如果两个不同的词拥有相似的上下文，模型会对这两个词给出相">
+Models and ToolsWord2Vec当我们在说word2vec算法或模型的时候，其实指的是其背后用于计算word vector的CBoW模型和Skip-gram模型。很多人以为word2vec指的是一个算法或模型，这也是一种谬误。google官方的论文中，对于cbow和skip-gram模型的描述，就是没有描述，看的">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Sentence Representations | 句向量工作">
 <meta property="og:url" content="http://yoursite.com/2017/09/18/Sentence-Representations/index.html">
 <meta property="og:site_name" content="感谢每一缕阳光">
 <meta property="og:description" content="近期，开始进行句向量相关的工作，学习过程记录于此，以便日后查阅。
 
-Models and ToolsWord2Vec当我们在说word2vec算法或模型的时候，其实指的是其背后用于计算word vector的CBoW模型和Skip-gram模型。很多人以为word2vec指的是一个算法或模型，这也是一种谬误。理解：word2vec的精髓是，如果两个不同的词拥有相似的上下文，模型会对这两个词给出相">
-<meta property="og:updated_time" content="2017-09-20T13:33:05.000Z">
+Models and ToolsWord2Vec当我们在说word2vec算法或模型的时候，其实指的是其背后用于计算word vector的CBoW模型和Skip-gram模型。很多人以为word2vec指的是一个算法或模型，这也是一种谬误。google官方的论文中，对于cbow和skip-gram模型的描述，就是没有描述，看的">
+<meta property="og:updated_time" content="2017-09-21T08:47:52.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Sentence Representations | 句向量工作">
 <meta name="twitter:description" content="近期，开始进行句向量相关的工作，学习过程记录于此，以便日后查阅。
 
-Models and ToolsWord2Vec当我们在说word2vec算法或模型的时候，其实指的是其背后用于计算word vector的CBoW模型和Skip-gram模型。很多人以为word2vec指的是一个算法或模型，这也是一种谬误。理解：word2vec的精髓是，如果两个不同的词拥有相似的上下文，模型会对这两个词给出相">
+Models and ToolsWord2Vec当我们在说word2vec算法或模型的时候，其实指的是其背后用于计算word vector的CBoW模型和Skip-gram模型。很多人以为word2vec指的是一个算法或模型，这也是一种谬误。google官方的论文中，对于cbow和skip-gram模型的描述，就是没有描述，看的">
   
     <link rel="alternative" href="/atom.xml" title="感谢每一缕阳光" type="application/atom+xml">
   
@@ -172,11 +172,12 @@ Models and ToolsWord2Vec当我们在说word2vec算法或模型的时候，其实
         <blockquote>
 <p>近期，开始进行句向量相关的工作，学习过程记录于此，以便日后查阅。</p>
 </blockquote>
-<h2 id="Models-and-Tools"><a href="#Models-and-Tools" class="headerlink" title="Models and Tools"></a>Models and Tools</h2><h3 id="Word2Vec"><a href="#Word2Vec" class="headerlink" title="Word2Vec"></a>Word2Vec</h3><p>当我们在说word2vec算法或模型的时候，其实指的是其背后用于计算word vector的CBoW模型和Skip-gram模型。很多人以为word2vec指的是一个算法或模型，这也是一种谬误。<br><strong>理解</strong>：word2vec的精髓是，如果两个不同的词拥有相似的上下文，模型会对这两个词给出相似的结果。对于skip-gram模型而言，如果两个词意义相近，神经网络也会输出相似的预测（预测上下文），隐藏层的权重矩阵即为词向量矩阵。skip-gram模型的输出时预测不同的词可能出现在输入词上下文的概率，中间的训练过程中的副产物就是我们所需要的<strong>词向量</strong>，这种技巧常常被应用于各种机器学习算法中。</p>
+<h2 id="Models-and-Tools"><a href="#Models-and-Tools" class="headerlink" title="Models and Tools"></a>Models and Tools</h2><h3 id="Word2Vec"><a href="#Word2Vec" class="headerlink" title="Word2Vec"></a>Word2Vec</h3><p>当我们在说word2vec算法或模型的时候，其实指的是其背后用于计算word vector的CBoW模型和Skip-gram模型。很多人以为word2vec指的是一个算法或模型，这也是一种谬误。<br>google官方的论文中，对于cbow和skip-gram模型的描述，就是没有描述，看的云里雾里，再看了大神博客（word2vec中的数学原理详解）之后，才算是对于Word2vec有了不错的理解，堪称醍醐灌顶。</p>
 <h4 id="相关资源"><a href="#相关资源" class="headerlink" title="相关资源"></a>相关资源</h4><ul>
 <li><a href="https://arxiv.org/pdf/1310.4546.pdf" target="_blank" rel="external">Distributed Representations of Words and Phrases and their Compositionality</a></li>
 <li><a href="http://mccormickml.com/2016/04/19/word2vec-tutorial-the-skip-gram-model/" target="_blank" rel="external">word2vec blog 1</a></li>
 <li><a href="http://mccormickml.com/2017/01/11/word2vec-tutorial-part-2-negative-sampling/" target="_blank" rel="external">word2vec blog 2</a></li>
+<li><a href="http://suanfazu.com/t/word2vec-zhong-de-shu-xue-yuan-li-xiang-jie-duo-tu-wifixia-yue-du/178" target="_blank" rel="external">word2vec 中的数学原理详解</a></li>
 <li><a href="http://www.cnblogs.com/iloveai/p/word2vec.html" target="_blank" rel="external">word2vec 前世今生</a></li>
 </ul>
 <h2 id="References"><a href="#References" class="headerlink" title="References"></a>References</h2><h3 id="Supervised-Learning-of-Universal-Sentence-Representations-from-Natural-Language-Inference-Data"><a href="#Supervised-Learning-of-Universal-Sentence-Representations-from-Natural-Language-Inference-Data" class="headerlink" title="Supervised Learning of Universal Sentence Representations from Natural Language Inference Data"></a>Supervised Learning of Universal Sentence Representations from Natural Language Inference Data</h3><h4 id="论文主题"><a href="#论文主题" class="headerlink" title="论文主题"></a>论文主题</h4><p>在斯坦福自然语言推断数据集(SNLI)上，使用监督学习的方法训练句向量模型，获得了不错的效果。类似于机器视觉中，在ImageNet上获取的特征可以用到其他图像处理任务中，我们的句向量模型训练好之后，也可以应用到其他的NLP任务中。</p>
@@ -390,11 +391,11 @@ MathJax.Hub.Queue(function() {
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">python</a>
+                <a href="javascript:void(0)" class="js-tag color2">Machine Learning</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">Machine Learning</a>
+                <a href="javascript:void(0)" class="js-tag color2">python</a>
               </li>
              
               <li class="article-tag-list-item">
