@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-09-19T03:41:48.000Z</updated>
+  <updated>2017-09-26T15:06:16.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,34 +21,18 @@
     <link href="http://yoursite.com/2017/09/19/Neural-Network-Methods-for-Natural-Language-Processing-Reading-Notes/"/>
     <id>http://yoursite.com/2017/09/19/Neural-Network-Methods-for-Natural-Language-Processing-Reading-Notes/</id>
     <published>2017-09-19T02:12:28.000Z</published>
-    <updated>2017-09-19T03:41:48.000Z</updated>
+    <updated>2017-09-26T15:06:16.000Z</updated>
     
-    <summary type="html">
-    
-    </summary>
-    
-    
-      <category term="Deep Learning" scheme="http://yoursite.com/tags/Deep-Learning/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Sentence Representations | 句向量工作</title>
-    <link href="http://yoursite.com/2017/09/18/Sentence-Representations/"/>
-    <id>http://yoursite.com/2017/09/18/Sentence-Representations/</id>
-    <published>2017-09-18T05:47:24.000Z</published>
-    <updated>2017-09-21T08:47:52.000Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote><p>近期，开始进行句向量相关的工作，学习过程记录于此，以便日后查阅。</p></blockquote><h2 id="Models-and-Tools"><a href="#Models-and-Tools" class="headerlink" title="Models and Tools"></a>Models and Tools</h2><h3 id="Word2Vec"><a href="#Word2Vec" class="headerlink" title="Word2Vec"></a>Word2Vec</h3><p>当我们在说word2vec算法或模型的时候，其实指的是其背后用于计算word vector的CBoW模型和Skip-gram模型。很多人以为word2vec指的是一个算法或模型，这也是一种谬误。<br>google官方的论文中，对于cbow和skip-gram模型的描述，就是没有描述，看的云里雾里，再看了大神博客（word2vec中的数学原理详解）之后，才算是对于Word2vec有了不错的理解，堪称醍醐灌顶。</p><h4 id="相关资源"><a href="#相关资源" class="headerlink" title="相关资源"></a>相关资源</h4><ul><li><a href="https://arxiv.org/pdf/1310.4546.pdf" target="_blank" rel="external">Distributed Representations of Words and Phrases and their Compositionality</a></li><li><a href="http://mccormickml.com/2016/04/19/word2vec-tutorial-the-skip-gram-model/" target="_blank" rel="external">word2vec blog 1</a></li><li><a href="http://mccormickml.com/2017/01/11/word2vec-tutorial-part-2-negative-sampling/" target="_blank" rel="external">word2vec blog 2</a></li><li><a href="http://suanfazu.com/t/word2vec-zhong-de-shu-xue-yuan-li-xiang-jie-duo-tu-wifixia-yue-du/178" target="_blank" rel="external">word2vec 中的数学原理详解</a></li><li><a href="http://www.cnblogs.com/iloveai/p/word2vec.html" target="_blank" rel="external">word2vec 前世今生</a></li></ul><h2 id="References"><a href="#References" class="headerlink" title="References"></a>References</h2><h3 id="Supervised-Learning-of-Universal-Sentence-Representations-from-Natural-Language-Inference-Data"><a href="#Supervised-Learning-of-Universal-Sentence-Representations-from-Natural-Language-Inference-Data" class="headerlink" title="Supervised Learning of Universal Sentence Representations from Natural Language Inference Data"></a>Supervised Learning of Universal Sentence Representations from Natural Language Inference Data</h3><h4 id="论文主题"><a href="#论文主题" class="headerlink" title="论文主题"></a>论文主题</h4><p>在斯坦福自然语言推断数据集(SNLI)上，使用监督学习的方法训练句向量模型，获得了不错的效果。类似于机器视觉中，在ImageNet上获取的特征可以用到其他图像处理任务中，我们的句向量模型训练好之后，也可以应用到其他的NLP任务中。</p><h4 id="相关资源-1"><a href="#相关资源-1" class="headerlink" title="相关资源"></a>相关资源</h4><ul><li><a href="https://arxiv.org/pdf/1705.02364.pdf" target="_blank" rel="external">paper source</a></li><li><a href="https://github.com/facebookresearch/InferSent" target="_blank" rel="external">github source</a></li></ul>]]></content>
+    <content type="html"><![CDATA[<blockquote><p>这本书是振国师兄推荐的nlp深度学习入门书，值得一看。</p></blockquote><h2 id="14-Recurrent-Neural-Networks-Modeling-Sequences-and-Stacks"><a href="#14-Recurrent-Neural-Networks-Modeling-Sequences-and-Stacks" class="headerlink" title="14. Recurrent Neural Networks: Modeling Sequences and Stacks"></a>14. Recurrent Neural Networks: Modeling Sequences and Stacks</h2><p><strong>训练RNN的目标是什么？</strong><br>有一个很重要的点需要理解，通常RNN并不是对自身起作用，而是作为更大的神经网络的训练模块。该神经网络负责最终的预测和损失计算，误差会被反向传播到RNN网络中。因此，RNN扮演着对输入序列编码的角色，编码结果用来做之后的预测。监督信号并不是直接对RNN起作用，而是通过大的神经网络对其起作用。</p>]]></content>
     
     <summary type="html">
     
       
       
         &lt;blockquote&gt;
-&lt;p&gt;近期，开始进行句向量相关的工作，学习过程记录于此，以便日后查阅。&lt;/p&gt;
+&lt;p&gt;这本书是振国师兄推荐的nlp深度学习入门书，值得一看。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h2 id=&quot;Models-and-Tools&quot;&gt;&lt;a href=&quot;#Models-and-Tools&quot; class=&quot;headerlink&quot; 
+&lt;h2 id=&quot;14-Recurrent-Neural-Networks-Modeling-Sequences-and-Stacks&quot;&gt;&lt;a href=&quot;#
       
     
     </summary>
@@ -85,32 +69,6 @@
   </entry>
   
   <entry>
-    <title>学习日记</title>
-    <link href="http://yoursite.com/2017/09/11/Learning-Diary/"/>
-    <id>http://yoursite.com/2017/09/11/Learning-Diary/</id>
-    <published>2017-09-11T09:15:58.000Z</published>
-    <updated>2017-09-15T02:51:04.000Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote><p>在这自留地写下所学所思所行，作为青春年华的一面镜子，照亮自己。</p></blockquote><h3 id="2017-9-11"><a href="#2017-9-11" class="headerlink" title="2017-9-11"></a>2017-9-11</h3><h3 id="学"><a href="#学" class="headerlink" title="学"></a>学</h3><p>阅读n-gram文章，<br>统共28页，没有看完，明天继续。<br>观看吴恩达授课视频：深度学习与神经网络，<br>对于神经网络反向传播重要公式的推导过程，<br>还存在些许疑惑。</p><h3 id="思"><a href="#思" class="headerlink" title="思"></a>思</h3><p>今天是研究生开学第一天，<br>见证了两百人的教室，涌入了六百人的壮观场景；<br>也见证了史上最短开学典礼的特殊和莫名兴奋<br>（昨日因下雨，国科大两分钟结束开学典礼）。</p><p>现在开始把精力放在自然语言处理领域，<br>比较重要的是，学习使用深度学习（神经网络）。<br>万事开头难，唯有一步步积累，每日有所长进，<br>才会有阶段性成果。</p><h3 id="行"><a href="#行" class="headerlink" title="行"></a>行</h3><p>上课，<br>自我学习，<br>跑步交友。</p><h3 id="2017-9-15"><a href="#2017-9-15" class="headerlink" title="2017-9-15"></a>2017-9-15</h3><h3 id="学-1"><a href="#学-1" class="headerlink" title="学"></a>学</h3><p>阅读完基础的n-gram部分。<br>阅读书籍<em>Neural networks and deep learning</em>第三章，<br>学习了过拟合和正则化等知识，理解神经网络的工作方式。<br>对自己的提问：</p><ul><li>神经网络为什么是这样的形式？</li><li>如何从数学和逻辑的角度理解BP的公式？</li><li>正则化的操作为什么能够缓解过拟合？</li></ul><h3 id="思-1"><a href="#思-1" class="headerlink" title="思"></a>思</h3><p>学习就是这样，从一无所知到不断碰壁探索直至艰难地步入正轨。</p><h3 id="行-1"><a href="#行-1" class="headerlink" title="行"></a>行</h3><p>多跑步，多交友，多思考。<br>对人真诚，保持微笑，阳光在脸上。</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;blockquote&gt;
-&lt;p&gt;在这自留地写下所学所思所行，作为青春年华的一面镜子，照亮自己。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3 id=&quot;2017-9-11&quot;&gt;&lt;a href=&quot;#2017-9-11&quot; class=&quot;headerlink&quot; title=&quot;2017-9-1
-      
-    
-    </summary>
-    
-    
-      <category term="Learning" scheme="http://yoursite.com/tags/Learning/"/>
-    
-  </entry>
-  
-  <entry>
     <title>谈谈我自己（二）</title>
     <link href="http://yoursite.com/2017/07/02/%E8%B0%88%E8%B0%88%E6%88%91%E8%87%AA%E5%B7%B1%EF%BC%88%E4%BA%8C%EF%BC%89/"/>
     <id>http://yoursite.com/2017/07/02/谈谈我自己（二）/</id>
@@ -137,20 +95,6 @@
   </entry>
   
   <entry>
-    <title>The Non-Designer&#39;s Design Book | Reading Notes</title>
-    <link href="http://yoursite.com/2017/07/01/The-Non-Designer-s-Design-Book-Reading-Notes/"/>
-    <id>http://yoursite.com/2017/07/01/The-Non-Designer-s-Design-Book-Reading-Notes/</id>
-    <published>2017-07-01T11:12:05.000Z</published>
-    <updated>2017-07-01T11:12:05.000Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
     <title>Neural Networks and Deep Learning | 读书笔记</title>
     <link href="http://yoursite.com/2017/07/01/Neural-Networks-and-Deep-Learning-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     <id>http://yoursite.com/2017/07/01/Neural-Networks-and-Deep-Learning-读书笔记/</id>
@@ -170,22 +114,6 @@
     
     
       <category term="Deep Learning" scheme="http://yoursite.com/tags/Deep-Learning/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Useful Python Code | 有用的python代码片段</title>
-    <link href="http://yoursite.com/2017/07/01/Useful-Python-Code/"/>
-    <id>http://yoursite.com/2017/07/01/Useful-Python-Code/</id>
-    <published>2017-07-01T05:43:33.000Z</published>
-    <updated>2017-07-01T08:26:37.000Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-      <category term="python" scheme="http://yoursite.com/tags/python/"/>
     
   </entry>
   
