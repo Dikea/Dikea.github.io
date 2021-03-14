@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>北京、杭州 on AwesomeJob</title>
+    <link>https://awesomejob.gitee.io/tags/%E5%8C%97%E4%BA%AC%E6%9D%AD%E5%B7%9E/</link>
+    <description>Recent content in 北京、杭州 on AwesomeJob</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2021-{year} 公子龙. All Rights Reserved.</copyright>
+    <lastBuildDate>Sat, 13 Feb 2021 23:02:29 +0000</lastBuildDate><atom:link href="https://awesomejob.gitee.io/tags/%E5%8C%97%E4%BA%AC%E6%9D%AD%E5%B7%9E/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>阿里巴巴前端开发工程师A.实习内推</title>
+      <link>https://awesomejob.gitee.io/posts/jobs/job_18/</link>
+      <pubDate>Sat, 13 Feb 2021 23:02:29 +0000</pubDate>
+      
+      <guid>https://awesomejob.gitee.io/posts/jobs/job_18/</guid>
+      <description>&lt;p&gt;这是来自阿里巴巴员工的内推，也是 AwesomeJob 的第 18 则内推消息&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>阿里巴巴前端开发工程师A.实习内推</title>
+      <link>https://awesomejob.gitee.io/posts/jobs/job_17/</link>
+      <pubDate>Sat, 13 Feb 2021 23:02:15 +0000</pubDate>
+      
+      <guid>https://awesomejob.gitee.io/posts/jobs/job_17/</guid>
+      <description>&lt;p&gt;这是来自阿里巴巴员工的内推，也是 AwesomeJob 的第 17 则内推消息&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

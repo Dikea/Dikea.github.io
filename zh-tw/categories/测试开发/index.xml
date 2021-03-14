@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>测试开发 on AwesomeJob</title>
+    <link>https://awesomejob.gitee.io/categories/%E6%B5%8B%E8%AF%95%E5%BC%80%E5%8F%91/</link>
+    <description>Recent content in 测试开发 on AwesomeJob</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2021-{year} 公子龙. All Rights Reserved.</copyright>
+    <lastBuildDate>Thu, 04 Mar 2021 11:49:07 +0000</lastBuildDate><atom:link href="https://awesomejob.gitee.io/categories/%E6%B5%8B%E8%AF%95%E5%BC%80%E5%8F%91/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>阿里测试开发工程师实习校招社招内推</title>
+      <link>https://awesomejob.gitee.io/posts/jobs/job_93/</link>
+      <pubDate>Thu, 04 Mar 2021 11:49:07 +0000</pubDate>
+      
+      <guid>https://awesomejob.gitee.io/posts/jobs/job_93/</guid>
+      <description>&lt;p&gt;这是来自阿里员工的内推，也是 AwesomeJob 的第 93 则内推消息&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
