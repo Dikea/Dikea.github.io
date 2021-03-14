@@ -1,16 +1,61 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
-  <sitemap>
-    <loc>https://dikea.github.io/zh-tw/sitemap.xml</loc>
-    
-  </sitemap>
+  <url>
+    <loc>https://dikea.github.io/zh-tw/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://dikea.github.io/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://dikea.github.io/zh-tw/"
+                />
+  </url>
   
-  <sitemap>
-    <loc>https://dikea.github.io/zh-cn/sitemap.xml</loc>
-    
-      <lastmod>2021-03-14T00:00:00+00:00</lastmod>
-    
-  </sitemap>
+  <url>
+    <loc>https://dikea.github.io/zh-tw/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://dikea.github.io/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://dikea.github.io/zh-tw/categories/"
+                />
+  </url>
   
-</sitemapindex>
+  <url>
+    <loc>https://dikea.github.io/zh-tw/series/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://dikea.github.io/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://dikea.github.io/zh-tw/series/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://dikea.github.io/zh-tw/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://dikea.github.io/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://dikea.github.io/zh-tw/tags/"
+                />
+  </url>
+  
+</urlset>
