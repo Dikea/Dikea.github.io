@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>算法工程师 on AwesomeJob</title>
+    <link>https://awesomejob.gitee.io/categories/%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88/</link>
+    <description>Recent content in 算法工程师 on AwesomeJob</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2021-{year} 公子龙. All Rights Reserved.</copyright>
+    <lastBuildDate>Sat, 13 Feb 2021 21:36:13 +0000</lastBuildDate><atom:link href="https://awesomejob.gitee.io/categories/%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>字节跳动算法工程师社招内推</title>
+      <link>https://awesomejob.gitee.io/posts/jobs/job_12/</link>
+      <pubDate>Sat, 13 Feb 2021 21:36:13 +0000</pubDate>
+      
+      <guid>https://awesomejob.gitee.io/posts/jobs/job_12/</guid>
+      <description>&lt;p&gt;这是来自字节跳动员工的内推，也是 AwesomeJob 的第 12 则内推消息&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>中发展科技公司算法工程师社招内推</title>
+      <link>https://awesomejob.gitee.io/posts/jobs/job_6/</link>
+      <pubDate>Sat, 13 Feb 2021 20:56:54 +0000</pubDate>
+      
+      <guid>https://awesomejob.gitee.io/posts/jobs/job_6/</guid>
+      <description>&lt;p&gt;这是来自中发展科技公司员工的内推，也是 AwesomeJob 的第 6 则内推消息&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

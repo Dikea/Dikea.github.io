@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>实习 on AwesomeJob</title>
+    <link>https://awesomejob.gitee.io/categories/%E5%AE%9E%E4%B9%A0/</link>
+    <description>Recent content in 实习 on AwesomeJob</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2021-{year} 公子龙. All Rights Reserved.</copyright>
+    <lastBuildDate>Fri, 12 Feb 2021 18:33:41 +0000</lastBuildDate><atom:link href="https://awesomejob.gitee.io/categories/%E5%AE%9E%E4%B9%A0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>微软亚洲研究院自然语言处理实习内推</title>
+      <link>https://awesomejob.gitee.io/posts/jobs/job_2/</link>
+      <pubDate>Fri, 12 Feb 2021 18:33:41 +0000</pubDate>
+      
+      <guid>https://awesomejob.gitee.io/posts/jobs/job_2/</guid>
+      <description>&lt;p&gt;这是来自微软亚洲研究院员工的内推，也是 AwesomeJob 的第 2 则内推消息&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

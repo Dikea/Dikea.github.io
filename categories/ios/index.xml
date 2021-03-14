@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>iOS on AwesomeJob</title>
+    <link>https://awesomejob.gitee.io/categories/ios/</link>
+    <description>Recent content in iOS on AwesomeJob</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2021-{year} 公子龙. All Rights Reserved.</copyright>
+    <lastBuildDate>Wed, 03 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://awesomejob.gitee.io/categories/ios/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>小叶子客户端开发工程师社招内推</title>
+      <link>https://awesomejob.gitee.io/posts/jobs/job_78/</link>
+      <pubDate>Wed, 03 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://awesomejob.gitee.io/posts/jobs/job_78/</guid>
+      <description>&lt;p&gt;这是来自小叶子员工的内推，也是 AwesomeJob 的第 78 则内推消息&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

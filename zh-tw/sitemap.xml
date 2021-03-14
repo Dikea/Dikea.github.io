@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://awesomejob.gitee.io/zh-tw/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://awesomejob.gitee.io/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://awesomejob.gitee.io/zh-tw/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://awesomejob.gitee.io/zh-tw/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://awesomejob.gitee.io/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://awesomejob.gitee.io/zh-tw/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://awesomejob.gitee.io/zh-tw/series/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://awesomejob.gitee.io/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://awesomejob.gitee.io/zh-tw/series/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://awesomejob.gitee.io/zh-tw/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://awesomejob.gitee.io/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://awesomejob.gitee.io/zh-tw/tags/"
+                />
+  </url>
+  
+</urlset>
