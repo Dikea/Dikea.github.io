@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ROCK Pi on AwesomeJob</title>
-    <link>https://awesomejob.gitee.io/tags/rock-pi/</link>
+    <link>https://dikea.github.io/tags/rock-pi/</link>
     <description>Recent content in ROCK Pi on AwesomeJob</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2021-{year} 公子龙. All Rights Reserved.</copyright>
-    <lastBuildDate>Fri, 19 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://awesomejob.gitee.io/tags/rock-pi/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 19 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://dikea.github.io/tags/rock-pi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ROCK Pi嵌入式工程师实习校招社招内推</title>
-      <link>https://awesomejob.gitee.io/posts/jobs/job_27/</link>
+      <link>https://dikea.github.io/posts/jobs/job_27/</link>
       <pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://awesomejob.gitee.io/posts/jobs/job_27/</guid>
+      <guid>https://dikea.github.io/posts/jobs/job_27/</guid>
       <description>&lt;p&gt;这是来自ROCK Pi员工的内推，也是 AwesomeJob 的第 27 则内推消息&lt;/p&gt;</description>
     </item>
     

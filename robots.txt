@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://awesomejob.gitee.io/sitemap.xml
+Sitemap: https://dikea.github.io/sitemap.xml

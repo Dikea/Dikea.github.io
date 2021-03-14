@@ -3,58 +3,58 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://awesomejob.gitee.io/zh-tw/</loc>
+    <loc>https://dikea.github.io/zh-tw/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://awesomejob.gitee.io/"
+                href="https://dikea.github.io/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="https://awesomejob.gitee.io/zh-tw/"
+                href="https://dikea.github.io/zh-tw/"
                 />
   </url>
   
   <url>
-    <loc>https://awesomejob.gitee.io/zh-tw/categories/</loc>
+    <loc>https://dikea.github.io/zh-tw/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://awesomejob.gitee.io/categories/"
+                href="https://dikea.github.io/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="https://awesomejob.gitee.io/zh-tw/categories/"
+                href="https://dikea.github.io/zh-tw/categories/"
                 />
   </url>
   
   <url>
-    <loc>https://awesomejob.gitee.io/zh-tw/series/</loc>
+    <loc>https://dikea.github.io/zh-tw/series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://awesomejob.gitee.io/series/"
+                href="https://dikea.github.io/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="https://awesomejob.gitee.io/zh-tw/series/"
+                href="https://dikea.github.io/zh-tw/series/"
                 />
   </url>
   
   <url>
-    <loc>https://awesomejob.gitee.io/zh-tw/tags/</loc>
+    <loc>https://dikea.github.io/zh-tw/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://awesomejob.gitee.io/tags/"
+                href="https://dikea.github.io/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="https://awesomejob.gitee.io/zh-tw/tags/"
+                href="https://dikea.github.io/zh-tw/tags/"
                 />
   </url>
   

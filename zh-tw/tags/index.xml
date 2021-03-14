@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on AwesomeJob</title>
-    <link>https://awesomejob.gitee.io/zh-tw/tags/</link>
+    <link>https://dikea.github.io/zh-tw/tags/</link>
     <description>Recent content in Tags on AwesomeJob</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>Copyright © 2021-{year} 公子龙. All Rights Reserved.</copyright><atom:link href="https://awesomejob.gitee.io/zh-tw/tags/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Copyright © 2021-{year} 公子龙. All Rights Reserved.</copyright><atom:link href="https://dikea.github.io/zh-tw/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
